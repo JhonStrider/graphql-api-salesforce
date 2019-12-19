@@ -13,7 +13,9 @@
     "express-graphql": "0.6.12",
     "graphql": "0.12.2",
     "graphql-tools": "2.24.0",
+    "i": "^0.3.6",
     "knex": "^0.14.6",
+    "nodemon": "^2.0.2",
     "pg": "^7.14.0",
     "request": "^2.88.0"
   }

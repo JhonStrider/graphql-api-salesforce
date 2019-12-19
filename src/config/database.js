@@ -1,22 +1,20 @@
+const conSfdc = require('./oAuthSalesforce')
 const knexfile = require('../knexfile')
 const knex = require('knex')(knexfile)
+
+// class databaseConfig{
+
+//     constructor(){
+//         this.access_token_salesforce();
+//     }
+
+//     async access_token_salesforce(){
+//         return await conSfdc.callAutenticationApiSalesforce();
+//     }
+// }
+
 module.exports = knex;
-
-//knex('users').insert({
-//    name: 'Teste', 
-//    email:'teste@teste.com.br',
-//    password:'teste'
-//}).then(data => console.log(data))
-
-knex('users').select('*').then(
-    resultado => console.log(resultado)
-)
-
-
-async function connSalesforce(){
-    const conSfdc = require('./oAuthSalesforce')
-    const tk = await conSfdc.callAutenticationApiSalesforce();
-}
+// module.exports = new databaseConfig();
 
 // async function insertTraceFlag(credentials,data) {
 //     var request = require('request').defaults({ rejectUnauthorized: false });
