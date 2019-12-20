@@ -2,7 +2,7 @@
   "name": "graphql-api-salesforce",
   "version": "1.0.0",
   "description": "Research do uso do GraphQL espondo estruturas do Salesforce",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
